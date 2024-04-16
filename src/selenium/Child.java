@@ -17,7 +17,7 @@ public class Child
       void navigate() throws InterruptedException
       {
     	  driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
-    	  Thread.sleep(1000);
+    	  Thread.sleep(2000);
       }	  
     	  
       void logIn() throws InterruptedException, IOException   
