@@ -15,7 +15,7 @@ public class Frame
 		WebDriver driver = new ChromeDriver(); 
 		Actions a = new Actions(driver);
 		driver.get("https://www.globalsqa.com/demo-site/draganddrop/#google_vignette");
-		Thread.sleep(1000);
+		Thread.sleep(3000);
 		driver.manage().window().maximize();
 		WebElement p1 = driver.findElement(By.xpath("//iframe[@class='demo-frame lazyloaded']"));
 		driver.switchTo().frame(p1);
